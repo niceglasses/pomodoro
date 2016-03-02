@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta name="description" content="Pomodoro Timer">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Pomodoro Timer</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
+</style>
+</head>
+<body>
+    <div class="buttons">
+        <img width="100" height="100" src="img/Tomate_Tomato.svg" alt="">
+        <h1>Pomodoro Timer</h1>
+    </div>
+    <div class="clr">
+        <p id="clock">
+            <span class="days"></span>
+            <span class="hours"></span>
+            <span class="minutes"></span>
+            <span class="seconds"></span>
+        </p>
+    </div>
+    <div class="buttons">
+        <div class="buttons-inner">
+            <button class="25min btn action-button shadow animate green">
+                Pomodoro!
+            </button>
+            <button class="5min btn action-button shadow animate green">
+                Short Break
+            </button>
+            <button class="10min btn action-button shadow animate green">
+                Long Break
+            </button>
+            <button class="test btn action-button shadow animate green">
+                Test
+            </button>
+        </div>
+    </div>
+    <div class="rules">
+        <h2>Rules</h2>
+        <ol>
+            <li>Choose a task to be accomplished.</li>
+            <li>Pomodoro! Click the Pomodoro! button and work for 25 minutes.</li>
+            <li>After successfully completing a Pomodoro, take a short (5 min) break.</li>
+            <li>Every 4 Pomodoros take a long break (10 min).</li>
+        </ol>
+    </div>
+    <script src="js/howler.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
